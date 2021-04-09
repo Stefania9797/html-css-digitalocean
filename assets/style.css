@@ -2,6 +2,11 @@
 body{
     font-family:'Inter', sans-serif;;
 }
+h2{
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #071F51;
+}
 .container{
     width: 75%;
 }
@@ -43,7 +48,7 @@ nav a {
 .jumbotron{
     background-image: url(/img/bg-banner-home.jpg);
     background-size: cover;
-    height: 400px;
+    height: 450px;
 }
 /* jumbotron */
 .jumbotron .col-lg-7{
@@ -139,11 +144,6 @@ form{
 .deploy_scale{
     margin-top: 30px;
 }
-.deploy_scale h2 , .scroll_first h2{
-    padding: 20px;
-    margin-bottom: 10px;
-    color: #071F51;
-}
 .deploy_scale p{
     color: #9EA6B8;
 }
@@ -199,6 +199,15 @@ form{
 .empty{
     color: #006AFF;
 }
+/* Features */
+.features h4{
+    color: #071F51;
+}
+.features .left_feature,
+.features .center_feature
+{
+padding-right: 20px;
+}
 /* Media query */
 @media screen and (max-width:767px) {
     .container{
@@ -239,4 +248,9 @@ form{
     .deploy_scale{
         height: 700px;
     }
+}
+@media screen and (min-width:991px){
+.deploy_scale{
+    height: 700px;
+}
 }
