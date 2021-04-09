@@ -2,6 +2,9 @@
 body{
     font-family:'Inter', sans-serif;;
 }
+.grey{
+    background-color: red;
+}
 .blue{
     color: #1678FF;
 }
@@ -82,4 +85,17 @@ input{
     padding-top: 3px;
     font-size: 13px;
     color: #526383;
+}
+/* Clients logo */
+.clients h4{
+    text-transform: uppercase;
+    color: #A4ACBF;
+    margin:30px;
+    text-align: center;
+}
+.clients_logo img{
+    padding-right: 6px;
+}
+.clients_logo{
+    justify-content: center;
 }

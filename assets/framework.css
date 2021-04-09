@@ -20,7 +20,7 @@
     justify-content: center;
 }
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
 }
 .row{
@@ -29,14 +29,14 @@
 .text_center{
     text-align: center;
 }
-/* .row::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
 }
 [class*="col-"]{
     float: left;
-} */
+}
 /* 12 Colonne */
 .col-1{
     width: calc((100% / 12) * 1);
