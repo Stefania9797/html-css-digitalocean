@@ -1,18 +1,19 @@
-/* Utilities */
-.d_flex{
-    display: flex;
-    align-items: center;
+/* utilities */
+body{
+    font-family:'Inter', sans-serif;;
+}
+.blue{
+    color: #1678FF;
 }
 /* Header */
-header{
-    margin-top: 10px;
-}
+
+/* nav bar */
 .logo > img{
     width: 40%;
 }
 nav a {
     color: #33466D;
-    padding: 8px;
+    padding: 6px;
     text-decoration: none;
 }
 .right_nav{
@@ -22,4 +23,63 @@ nav a {
     border: 1px solid #6EAAFF;
     color: #6EAAFF;
     border-radius: 10px;
+}
+/* /nav bar */
+.jumbotron{
+    background-image: url(/img/bg-banner-home.jpg);
+    background-size: cover;
+    height: 400px;
+}
+/* jumbotron */
+.jumbotron .col-lg-6{
+    padding-top: 50px;
+}
+h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.jumbotron p{
+    color: #B3C7FF;
+    line-height: 1.4;
+}
+.white_col{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+.white_col h2{
+    text-align: center;
+}
+input{
+    border:1px solid #818181;
+    display: inline-block;
+    width: 95%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+}
+.btn_full{
+    background-color: #579AFF;
+    color: white;
+}
+.btn_google{
+    background-color: white;
+    color: #818181;
+    border: 1px solid #818181 ;
+}
+.btn_large{
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 4px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.white_col p{
+    padding-top: 3px;
+    font-size: 13px;
+    color: #526383;
 }

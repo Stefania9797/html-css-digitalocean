@@ -3,12 +3,31 @@
     margin: 0;
     padding: 0;
 }
+.m_top_10{
+    margin-top: 10px;
+}
+.m_bottom_10{
+    margin-bottom: 10px;
+}
+/* Flex */
+.d_flex{
+    display: flex;
+}
+.align_center{
+    align-items: center;
+}
+.justify_center{
+    justify-content: center;
+}
 .container{
     width: 1170px;
     margin: auto;
 }
 .row{
     width: 100%;
+}
+.text_center{
+    text-align: center;
 }
 /* .row::after{
     content: "";
