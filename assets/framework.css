@@ -10,14 +10,14 @@
 .row{
     width: 100%;
 }
-.row::after{
+/* .row::after{
     content: "";
     display: table;
     clear: both;
 }
 [class*="col-"]{
     float: left;
-}
+} */
 /* 12 Colonne */
 .col-1{
     width: calc((100% / 12) * 1);

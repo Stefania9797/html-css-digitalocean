@@ -1,0 +1,25 @@
+/* Utilities */
+.d_flex{
+    display: flex;
+    align-items: center;
+}
+/* Header */
+header{
+    margin-top: 10px;
+}
+.logo > img{
+    width: 40%;
+}
+nav a {
+    color: #33466D;
+    padding: 8px;
+    text-decoration: none;
+}
+.right_nav{
+    text-align: right;
+}
+.btn_empty{
+    border: 1px solid #6EAAFF;
+    color: #6EAAFF;
+    border-radius: 10px;
+}
