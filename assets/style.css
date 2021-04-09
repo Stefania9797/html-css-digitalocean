@@ -36,13 +36,14 @@ nav a {
 .right_nav{
     text-align: right;
 }
-.fas.fa-bars{
+.bars{
     display: none;
 }
 .btn_empty{
     border: 1px solid #6EAAFF;
     color: #6EAAFF;
-    border-radius: 10px;
+    border-radius: 4px;
+    padding: 5px;
 }
 /* /nav bar */
 .jumbotron{
@@ -54,6 +55,9 @@ nav a {
 .jumbotron .col-lg-7{
     padding-top: 50px;
 }
+.jumbotron h3{
+    font-size: 20px;
+}
 .col-lg-5{
     padding-left: 10px;
 }
@@ -64,11 +68,6 @@ nav a {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.clients_logo img{
-    height: auto;
-    width: 15%;
-    display: block;
 }
 h1{
     color: white;
@@ -91,7 +90,7 @@ input{
     border:1px solid #dadada;
     display: inline-block;
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin: auto;
     margin-top: 8px;
 }
@@ -115,7 +114,7 @@ input{
     margin: auto;
     margin-top: 8px;
     border-radius: 3px;
-    padding: 4px;
+    padding: 8px;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -139,6 +138,14 @@ form{
     padding-bottom:30px;
     padding-top: 30px;
     text-align: center;
+}
+.clients_logo img{
+    height: auto;
+    width: 15%;
+    display: block;
+}
+.clients{
+    padding-bottom: 20px;
 }
 /* Deploy and scale */
 .deploy_scale{
@@ -180,8 +187,10 @@ form{
     justify-content: center;
 }
 .center{
-    width:516px;
-    height: 350px;
+    margin-bottom: 50px;
+}
+.scroll_list{
+    padding-bottom: 30px;
 }
 .fa-chevron-left , .fa-chevron-right{
     padding: 10px;
@@ -208,10 +217,31 @@ form{
 {
 padding-right: 20px;
 }
+.features p{
+    margin: 10px 0;
+    color:#A9B1C1;
+}
+.features img{
+    padding: 10px 0;
+}
+/* Test speed */
+.speed{
+    margin-top: 40px;
+    background-color: #0046C5;
+}
+.speed h2 , .speed span{
+    color: white;
+}
 /* Media query */
 @media screen and (max-width:767px) {
     .container{
         width: 95%;
+    }
+    .features img{
+        padding: 20px 0;
+    }
+    .d_flex.features_details{
+        display: block;
     }
     .center_nav , .right_nav{
         display: none;
@@ -219,8 +249,11 @@ padding-right: 20px;
     .fas.fa-bar{
         display: inline-block;
     }
+    .left , .right{
+        display: none;
+    }
     .jumbotron{
-        height: 850px;
+        height: 900px;
     }
     .logo img{
         width: 30%;
@@ -229,12 +262,15 @@ padding-right: 20px;
         width: 48%;
     }
     .deploy_scale{
-        height: 1200px;
+        height: 1400px;
     }
 }
 @media screen and (min-width:767px) and (max-width:991px) {
     .container{
         width: 95%;
+    }
+    .bars{
+        display: inline-block;
     }
     .center_nav , .right_nav{
         display: none;
