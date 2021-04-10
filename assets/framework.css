@@ -16,6 +16,9 @@
 .d_flex{
     display: flex;
 }
+.flex_column{
+    flex-direction: column;
+}
 .align_center{
     align-items: center;
 }

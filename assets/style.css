@@ -36,7 +36,7 @@ nav a {
 .right_nav{
     text-align: right;
 }
-.bars{
+.fas.fa-bars{
     display: none;
 }
 .btn_empty{
@@ -227,11 +227,29 @@ padding-right: 20px;
 /* Test speed */
 .speed{
     margin-top: 40px;
-    background-color: #0046C5;
+    height: 400px;
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
 }
 .speed h2 , .speed span{
     color: white;
 }
+.cities_left div , .cities_right div{
+    padding: 10px 0;
+}
+.speed a{
+    color: #00B7CD;
+    text-decoration: none;
+}
+.cities_left{
+    padding-right: 15px;
+}
+.cities_right{
+    padding-left: 15px;
+}
+.cities_left div:not(.last) , .cities_right div:not(.last){
+    border-bottom: 1px solid white;
+}
+
 /* Media query */
 @media screen and (max-width:767px) {
     .container{
@@ -249,11 +267,8 @@ padding-right: 20px;
     .fas.fa-bar{
         display: inline-block;
     }
-    .left , .right{
-        display: none;
-    }
     .jumbotron{
-        height: 900px;
+        height: 1000px;
     }
     .logo img{
         width: 30%;
@@ -264,25 +279,43 @@ padding-right: 20px;
     .deploy_scale{
         height: 1400px;
     }
+    .speed span , .speed a{
+        font-size: 10px;
+    }
+    .speed{
+        height: 700px;
+    }
+    .cities_right{
+        padding-left: 0%;
+    }
+    .cities_left{
+        padding-right: 0;
+    }
 }
 @media screen and (min-width:767px) and (max-width:991px) {
     .container{
         width: 95%;
     }
-    .bars{
+    .fas.fa-bar{
         display: inline-block;
     }
     .center_nav , .right_nav{
         display: none;
-    }
-    .fas.fa-bar{
-        display: inline-block;
     }
     .logo img{
         width: 30%;
     }
     .deploy_scale{
         height: 700px;
+    }
+    .speed{
+        height: 700px;
+    }
+    .cities_right{
+        padding-left: 0%;
+    }
+    .cities_left{
+        padding-right: 0;
     }
 }
 @media screen and (min-width:991px){
