@@ -7,6 +7,9 @@ h2{
     margin-bottom: 10px;
     color: #071F51;
 }
+.gradient{
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
 .container{
     width: 75%;
 }
@@ -24,12 +27,15 @@ h2{
 /* Header */
 
 /* nav bar */
+.nav{
+    align-items: center;
+}
 .logo > img{
-    width: 80%;
+    width: 90%;
 }
 nav a {
     color: #33466D;
-    padding: 2px;
+    padding: 3px;
     font-size: 15px;
     text-decoration: none;
 }
@@ -49,7 +55,7 @@ nav a {
 .jumbotron{
     background-image: url(/img/bg-banner-home.jpg);
     background-size: cover;
-    height: 450px;
+    padding-bottom: 30px;
 }
 /* jumbotron */
 .jumbotron .col-lg-7{
@@ -150,6 +156,7 @@ form{
 /* Deploy and scale */
 .deploy_scale{
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 .deploy_scale p{
     color: #9EA6B8;
@@ -175,11 +182,8 @@ form{
 .deploy_scale h3{
     color: #1D335F;
 }
-.deploy_scale{
-    height: 600px;
-}
 /* Sezione a scorrimento 1 */
-.scroll_first{
+.scroll{
     background-color: #F3F5F9;
 }
 .scroll_img{
@@ -227,8 +231,7 @@ padding-right: 20px;
 /* Test speed */
 .speed{
     margin-top: 40px;
-    height: 400px;
-    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+    padding-bottom: 40px;
 }
 .speed h2 , .speed span{
     color: white;
@@ -249,11 +252,32 @@ padding-right: 20px;
 .cities_left div:not(.last) , .cities_right div:not(.last){
     border-bottom: 1px solid white;
 }
-
+/* Get started */
+.get_started{
+    padding-bottom: 20px;
+}
+.get_started h2{
+    color: white;
+    margin: 0;
+}
+.get_started a{
+    color: #1678FF;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+.get_started .d_flex{
+    justify-content: center;
+}
 /* Media query */
 @media screen and (max-width:767px) {
     .container{
         width: 95%;
+    }
+    .left ,.right{
+        display: none;
     }
     .features img{
         padding: 20px 0;
@@ -264,11 +288,8 @@ padding-right: 20px;
     .center_nav , .right_nav{
         display: none;
     }
-    .fas.fa-bar{
+    .bars > .fas.fa-bars{
         display: inline-block;
-    }
-    .jumbotron{
-        height: 1000px;
     }
     .logo img{
         width: 30%;
@@ -276,14 +297,8 @@ padding-right: 20px;
     .clients_logo img{
         width: 48%;
     }
-    .deploy_scale{
-        height: 1400px;
-    }
     .speed span , .speed a{
-        font-size: 10px;
-    }
-    .speed{
-        height: 700px;
+        font-size: 8px;
     }
     .cities_right{
         padding-left: 0%;
@@ -305,21 +320,18 @@ padding-right: 20px;
     .logo img{
         width: 30%;
     }
-    .deploy_scale{
-        height: 700px;
-    }
-    .speed{
-        height: 700px;
-    }
     .cities_right{
         padding-left: 0%;
     }
     .cities_left{
         padding-right: 0;
     }
+    .bars > .fas.fa-bars{
+        display: inline-block;
+    }
 }
 @media screen and (min-width:991px){
-.deploy_scale{
-    height: 700px;
-}
+    .speed span , .speed a{
+        font-size: 13px;
+    }
 }
