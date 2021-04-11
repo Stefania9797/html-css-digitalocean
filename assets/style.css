@@ -271,6 +271,39 @@ padding-right: 20px;
 .get_started .d_flex{
     justify-content: center;
 }
+footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #071F51;
+}
+footer h5{
+    color: white;
+}
+footer span{
+    display: block;
+    font-size: 12px;
+}
+footer i{
+    padding: 15px 5px 15px 0;
+}
+footer ul{
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    font-size: 12px;
+    padding:6px 0;
+}
+footer a{
+    color: #959EB1;
+    text-decoration: none;
+}
+footer span:not(#blue_span){
+    color: #959EB1;
+}
+#blue_span{
+    color: #596786;
+}
 /* Media query */
 @media screen and (max-width:767px) {
     .container{
