@@ -186,6 +186,9 @@ form{
 .scroll{
     background-color: #F3F5F9;
 }
+.scroll p{
+    color:#586686;
+}
 .scroll_img{
     align-items: center;
     justify-content: center;
@@ -252,6 +255,35 @@ padding-right: 20px;
 .cities_left div:not(.last) , .cities_right div:not(.last){
     border-bottom: 1px solid white;
 }
+/* Scorrimento 2 */
+.cto_story{
+    background-color: white;
+}
+.cto_story span{
+    color:#233965;
+}
+#cto{
+    font-weight: 900;
+}
+.cto_story p{
+    font-size: 20px;
+    padding: 15px;
+}
+.cto_story img{
+    padding: 30px 0;
+    width: 50%;
+}
+.cto_story a{
+    display: block;
+    padding: 50px 0;
+}
+.cto_story span{
+    display: block;
+    font-size: 18px;
+}
+.cto_story a{
+    text-decoration: none;
+}
 /* Get started */
 .get_started{
     padding-bottom: 20px;
@@ -261,7 +293,6 @@ padding-right: 20px;
     margin: 0;
 }
 .get_started a{
-    color: #1678FF;
     background-color: white;
     padding: 10px;
     text-decoration: none;
@@ -271,6 +302,7 @@ padding-right: 20px;
 .get_started .d_flex{
     justify-content: center;
 }
+/* Footer */
 footer{
     padding-top: 30px;
     padding-bottom: 20px;
