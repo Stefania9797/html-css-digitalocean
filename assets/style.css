@@ -2,6 +2,9 @@
 body{
     font-family:'Inter', sans-serif;;
 }
+.white_bg{
+    background-color: white;
+}
 h2{
     padding: 20px;
     margin-bottom: 10px;
@@ -50,6 +53,7 @@ nav a {
 }
 .fas.fa-bars{
     display: none;
+    color: #1678FF;
 }
 .btn_empty{
     border: 1px solid #6EAAFF;
@@ -90,7 +94,6 @@ h1{
     line-height: 1.4;
 }
 .white_col{
-    background-color: white;
     margin-top: 50px;
     border-radius: 5px;
     padding-top: 30px;
@@ -111,7 +114,6 @@ input{
     color: white;
 }
 .btn_google{
-    background-color: white;
     color: #818181;
     position: relative;
     border: 1px solid #818181 ;
@@ -189,9 +191,6 @@ form{
     color: #1D335F;
 }
 /* Sezione a scorrimento 1 */
-.scroll{
-    background-color: #F3F5F9;
-}
 .scroll p{
     color:#586686;
 }
@@ -262,9 +261,6 @@ padding-right: 20px;
     border-bottom: 1px solid white;
 }
 /* Scorrimento 2 */
-.cto_story{
-    background-color: white;
-}
 .cto_story span{
     color:#233965;
 }
