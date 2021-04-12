@@ -27,20 +27,26 @@ h2{
 /* Header */
 
 /* nav bar */
-.nav{
+nav.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
 }
+.logo , .right_nav , .center_nav{
+    flex-grow: 1;
+}
+.right_nav{
+    align-items: center;
+    justify-content: flex-end;
+}
 .logo > img{
-    width: 90%;
+    height: 30px;
 }
 nav a {
     color: #33466D;
-    padding: 3px;
+    padding: 4px;
     font-size: 15px;
     text-decoration: none;
-}
-.right_nav{
-    text-align: right;
 }
 .fas.fa-bars{
     display: none;
@@ -350,14 +356,11 @@ footer span:not(#blue_span){
     .d_flex.features_details{
         display: block;
     }
-    .center_nav , .right_nav{
+    .d_flex.center_nav , .d_flex.right_nav{
         display: none;
     }
     .bars > .fas.fa-bars{
         display: inline-block;
-    }
-    .logo img{
-        width: 30%;
     }
     .clients_logo img{
         width: 48%;
@@ -379,11 +382,8 @@ footer span:not(#blue_span){
     .fas.fa-bar{
         display: inline-block;
     }
-    .center_nav , .right_nav{
+    .d_flex.center_nav , .d_flex.right_nav{
         display: none;
-    }
-    .logo img{
-        width: 30%;
     }
     .cities_right{
         padding-left: 0%;
