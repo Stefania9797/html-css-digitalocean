@@ -63,7 +63,7 @@ nav a {
 }
 /* /nav bar */
 .jumbotron{
-    background-image: url(/img/bg-banner-home.jpg);
+    background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
     padding-bottom: 30px;
 }
